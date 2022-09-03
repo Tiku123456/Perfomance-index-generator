@@ -178,7 +178,7 @@ def Pdf(li):
     TABLE_COL_NAMES=['SNO','Name','Designation','Performance Index']
 #Teacher's Names
     tname=['Mr. K Sreenivasulu','Mr. Rajeevan K','Mr. P. V. Pradeep','Mr. Vivek Kumar Kushwaha','Mrs. S Shibi','Mr. Shabin Muhammed','Mr. Rajendar G']
-    TABLE_DATA=[['1',tname[0],'PGT Chemistry ',str(tota[5])],['2',tname[1],'PGT English',str(tota[0])],['3',tname[2],'PGT Biology',str(tota[6])],['4',tname[3],'PGT Hindi',str(tota[5])],['5',tname[4],'PGT Maths ',str(tota[5])],['6',tname[6],'PGT Computer Science',str(tota[6])],['7',tname[0],'PGT  Physics',str(tota[3])]]
+    TABLE_DATA=[['1',tname[0],'PGT Chemistry ',str(tota[5])],['2',tname[1],'PGT English',str(tota[0])],['3',tname[2],'PGT Biology',str(tota[6])],['4',tname[3],'PGT Hindi',str(tota[5])],['5',tname[4],'PGT Maths ',str(tota[5])],['6',tname[5],'PGT Computer Science',str(tota[6])],['7',tname[6],'PGT  Physics',str(tota[3])]]
     col_width= (pdf.epw) /4
     gh=col_width/3
     pdf.cell(34, line_height, '',align="C")
